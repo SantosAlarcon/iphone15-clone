@@ -1,4 +1,4 @@
-import hero from "/assets/images/hero.jpeg";
+import hero from "/assets/images/hero.webp";
 
 export const heroImg = hero;
 
@@ -20,14 +20,14 @@ import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
 
-import yellow from "/assets/images/yellow.jpg";
-import blue from "/assets/images/blue.jpg";
-import white from "/assets/images/white.jpg";
-import black from "/assets/images/black.jpg";
-import explore1 from "/assets/images/explore1.jpg";
-import explore2 from "/assets/images/explore2.jpg";
-import chip from "/assets/images/chip.jpeg";
-import frame from "/assets/images/frame.png";
+import yellow from "/assets/images/yellow.webp";
+import blue from "/assets/images/blue.webp";
+import white from "/assets/images/white.webp";
+import black from "/assets/images/black.webp";
+import explore1 from "/assets/images/explore1.webp";
+import explore2 from "/assets/images/explore2.webp";
+import chip from "/assets/images/chip.webp";
+import frame from "/assets/images/frame.webp";
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
