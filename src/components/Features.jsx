@@ -62,14 +62,14 @@ const Features = () => {
               playsInline
               id="exploreVideo"
               className="w-full h-full object-cover object-center"
-              preload="none"
+              preload="none" muted autoPlay
                             ref={videoRef}
             >
               <source src={exploreVideo} type="video/mp4" />
             </video>
           </div>
 
-          <div className="flex flex-col w-full relative">
+          <div className="flex flex-col w-full relative mt-6">
             <div className="feature-video-container">
               <div className="overflow-hidden flex-1 h-[50vh]">
                 <img

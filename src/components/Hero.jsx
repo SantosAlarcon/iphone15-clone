@@ -40,6 +40,7 @@ const Hero = () => {
             autoPlay
             muted
             playsInline={true}
+            preload="none"
             key={videoSrc}
           >
             <source src={videoSrc} type="video/mp4" />
