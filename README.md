@@ -1,8 +1,11 @@
-# React + Vite
+# iPhone 15 Pro Splash Screen Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Cover](cover-iphone15pro.webp)
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This page is a clone or recreation of the [iPhone 15 Pro page](https://www.apple.com/iphone-15-pro) made by **React** and uses the **GSAP** for the animations and **ThreeJS** for the 3D Rendering. The only difference with the official page is that you can rotate the 3D model and change the color in realtime.
+
+## Credits
+
+Thanks to the great [Adrian Hajdin](https://github.com/adrianhajdin) from **JS Mastery** for making the [video what is based](https://www.youtube.com/watch?v=kRQbRAJ4-Fs).
