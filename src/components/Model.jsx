@@ -35,12 +35,12 @@ const Model = () => {
         if (size === "large") {
                 animateWithGsapTimeline(timeline, small, smallRotation, "#view1", "#view2", {
                 transform: "translateX(-100%)",
-                duration: 2
+                duration: 1
             })
         } else if (size === "small") {
                 animateWithGsapTimeline(timeline, large, largeRotation, "#view2", "#view1", {
                 transform: "translateX(0)",
-                duration: 2
+                duration: 1
             })
         }
     }, [size])
@@ -111,7 +111,7 @@ const Model = () => {
                 {sizes.map(({ label, value }) => (
                   <span
                     key={label}
-                    className="size-btn"
+                    className="size-btn cursor-pointer"
                     style={{
                       backgroundColor: size === value ? "white" : "transparent",
                       color: size === value ? "black" : "white",
